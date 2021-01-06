@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style:none;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #c5d0d3;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    width: 100px;
+
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #416d6d;
+    font-weight: 400;
+    margin-left: 40px;
+    transition: opacity 250ms;
+}
+
+header ul li a:hover {
+    opacity: 0.8;
+}
+
+.loading {
+    margin-top: 50px;
+    margin-left: -180px;
+    border-radius: 20px;
+    transition: 2s;
+  }
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox h3 {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2 {
+    color: #416d6d;
+    font-size: 4.1em;
+    line-height: 1.8em;
+    font-weight: 450;
+}
+
+p {
+    color: #416d6d;
+}
+
+h3 {
+    color:#416d6d;
+    font-size:3.1em;
+    line-height: 1em;
+    font-weight: 300;
+}
+
+h4 {
+    color:#416d6d;
+    font-size:1.5em;
+    line-height: 0.7em;
+    font-weight: 150;
+}
+.social {
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social li a {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.social li a img {
+    transition: opacity 250ms;
+}
+
+.social li a img:hover {
+    opacity: 0.8;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background:#c5d0d3;
+    color:#416d6d
+}
