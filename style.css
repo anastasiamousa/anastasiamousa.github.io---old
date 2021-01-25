@@ -94,8 +94,12 @@ header ul li a:hover {
     font-weight: 450;
 }
 
-p a {
+p {
     color: #416d6d;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 h3 {
