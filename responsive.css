@@ -45,7 +45,7 @@
         height: 100%;
         cursor:pointer;
         clear: both;
-        align-items:inherit;
+        align-items:stretch;
         justify-content: center;
         background-color: #FFF;
         z-index: 10;
