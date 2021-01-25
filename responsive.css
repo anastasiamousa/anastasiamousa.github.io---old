@@ -47,6 +47,7 @@
         justify-content:center;
         flex-direction:column;
         background-color: #416d6d;
+        text-decoration-color:#c5d0d3;
         z-index: 10;
     }
 
