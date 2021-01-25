@@ -32,9 +32,9 @@
         right: 15px;
         background-image: url(img/close.png);
         background-size: 25px;
-        background-position: center;
+        background-position:100;
         background-repeat: no-repeat;
-        z-index: 11;
+        z-index: 10;
     }
 
     .navigation.active {
