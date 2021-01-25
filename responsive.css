@@ -14,12 +14,12 @@
         position:relative;
         width: 30px;
         height: 30px;
-        cursor: pointer;
+        cursor:pointer;
         background-image: url(img/menu.png);
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
-        transition: opacity 250ms;
+        /*transition: opacity 250ms;*/
         z-index:11;
     }
 
