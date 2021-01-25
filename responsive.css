@@ -13,7 +13,7 @@
 
     .toggle {
         position:relative;
-        width: 100%;
+        width: 30px;
         height: 30px;
         cursor: pointer;
         background-image: url(img/menu.png);
@@ -28,7 +28,7 @@
     }
 
     .toggle.active {
-        position: fixed;
+        position: relative;
         right: 20px;
         background-image: url(img/close.png);
         background-size: 25px;
