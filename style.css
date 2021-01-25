@@ -98,8 +98,9 @@ p {
     color: #416d6d;
 }
 
-a:link {
+a:link, a:visited {
     text-decoration: none;
+    color:#c86f43;
 }
 
 h3 {
