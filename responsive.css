@@ -6,7 +6,6 @@
     header .logo {
         max-width: 60px;
     }
-
     header ul {
         display: none;
     }
@@ -35,19 +34,20 @@
         background-size: 25px;
         background-position:center;
         background-repeat: no-repeat;
-        z-index: 11;
     }
 
     .navigation.active {
-        position: relative;
+        position: fixed;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
+        display:flex;
         align-items:stretch;
-        justify-content:stretch;
+        justify-content:center;
+        flex-direction:column;
         background-color: #FFF;
-        z-index: 11;
+        z-index: 10;
     }
 
     .navigation.active li a {
