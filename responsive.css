@@ -30,14 +30,13 @@
     .toggle.active {
         position: fixed;
         right: 10px;
-        color:#c5d0d3;
         background-image: url(img/close.png);
         background-size: 25px;
         background-position:center;
         background-repeat: no-repeat;
     }
 
-    .navigation.active a {
+    .navigation.active {
         position: fixed;
         top: 0;
         left: 0;
@@ -47,8 +46,7 @@
         align-items:stretch;
         justify-content:center;
         flex-direction:column;
-        background-color: #416d6d;
-        color:#c5d0d3;
+        background-color: #c5d0d3;
         z-index: 10;
     }
 
