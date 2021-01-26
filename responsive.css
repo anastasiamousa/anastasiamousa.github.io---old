@@ -31,14 +31,13 @@
         position: fixed;
         right: 10px;
         color:#c5d0d3;
-        text-decoration-color: #c5d0d3;
         background-image: url(img/close.png);
         background-size: 25px;
         background-position:center;
         background-repeat: no-repeat;
     }
 
-    .navigation.active {
+    .navigation.active a {
         position: fixed;
         top: 0;
         left: 0;
@@ -49,7 +48,7 @@
         justify-content:center;
         flex-direction:column;
         background-color: #416d6d;
-        text-decoration-color:#c5d0d3;
+        color:#c5d0d3;
         z-index: 10;
     }
 
