@@ -36,7 +36,7 @@
         background-repeat: no-repeat;
     }
 
-    .navigation.active {
+    .navigation.active a {
         position: fixed;
         top: 0;
         left: 0;
@@ -46,7 +46,7 @@
         align-items:stretch;
         justify-content:center;
         flex-direction:column;
-        background-color: #c5d0d3;
+        background-color:#c5d0d3;
         z-index: 10;
     }
 
