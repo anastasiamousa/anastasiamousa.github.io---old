@@ -19,7 +19,7 @@
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
-        /*transition: opacity 250ms;*/
+        transition: opacity 250ms;
         z-index:11;
     }
 
@@ -44,7 +44,7 @@
         height: 100%;
         display:flex;
         align-items:stretch;
-        justify-content:center;
+        justify-content:stretch;
         flex-direction:column;
         background-color:#c5d0d3;
         z-index: 10;
