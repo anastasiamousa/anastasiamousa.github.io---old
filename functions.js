@@ -7,5 +7,5 @@ function toggleMenu() {
 
 window.onload = function() {
     var loading = document.getElementById('loading')
-    loading.style.marginLeft = "10px"
+    loading.style.marginLeft = "8px"
 }
