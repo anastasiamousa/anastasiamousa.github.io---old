@@ -27,7 +27,7 @@
         opacity: 0.8;
     }
 
-    .toggle.active {
+    .toggle.active a {
         position:fixed;
         right: 10px;
         background-image: url(img/close.png);
@@ -36,7 +36,7 @@
         background-repeat: no-repeat;
     }
 
-    .navigation.active {
+    .navigation.active a {
         position:fixed;
         top: 0;
         left: 0;
