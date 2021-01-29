@@ -11,7 +11,7 @@
     }
 
     .toggle {
-        position:relative;
+        position: relative;
         width: 30px;
         height: 30px;
         cursor:pointer;
@@ -19,24 +19,24 @@
         background-size: 30px;
         background-position: center;
         background-repeat: no-repeat;
-        /*transition: opacity 250ms;*/
-        z-index:10;
+        transition:ease;
+        z-index:11;
     }
 
     .toggle:hover {
         opacity: 0.8;
     }
 
-    .toggle.active a {
+    .toggle.active {
         position:fixed;
-        right: 10px;
+        right: 20px;
         background-image: url(img/close.png);
-        background-size:auto;
+        background-size:15px;
         background-position:center;
         background-repeat: no-repeat;
     }
 
-    .navigation.active a {
+    header ul.navigation.active {
         position:fixed;
         top: 0;
         left: 0;
@@ -52,7 +52,7 @@
 
     .navigation.active li a {
         font-size: 1.8em;
-        margin-bottom: 40px;
+        margin-bottom:40px;
     }
 
     section {
@@ -81,7 +81,7 @@
 
     .social {
         right: 0;
-        width: 50px;
+        width: 40px;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         padding: 5px 0;
