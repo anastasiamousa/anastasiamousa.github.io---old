@@ -28,7 +28,7 @@
     }
 
     .toggle.active {
-        position:relative;
+        position:fixed;
         right: 10px;
         background-image: url(img/close.png);
         background-size:auto;
