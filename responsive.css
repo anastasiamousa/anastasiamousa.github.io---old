@@ -28,7 +28,7 @@
     }
 
     .toggle.active {
-        position: fixed;
+        position: relative;
         right: 10px;
         background-image: url(img/close.png);
         background-size: 25px;
@@ -37,7 +37,7 @@
     }
 
     .navigation.active a {
-        position: fixed;
+        position: relative;
         top: 0;
         left: 0;
         width: 100%;
