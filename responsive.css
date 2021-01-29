@@ -29,9 +29,9 @@
 
     .toggle.active {
         position:fixed;
-        right: 20px;
+        right: 15px;
         background-image: url(img/close.png);
-        background-size:15px;
+        background-size:auto;
         background-position:center;
         background-repeat: no-repeat;
     }
@@ -81,7 +81,7 @@
 
     .social {
         right: 0;
-        width: 40px;
+        width: 30px;
         border-top-left-radius: 5px;
         border-bottom-left-radius: 5px;
         padding: 5px 0;
