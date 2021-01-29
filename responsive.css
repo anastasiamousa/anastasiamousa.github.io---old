@@ -27,8 +27,8 @@
         opacity: 0.8;
     }
 
-    .toggle.active {
-        position: relative;
+    .toggle.menu.active {
+        position: fixed;
         right: 10px;
         background-image: url(img/close.png);
         background-size: 25px;
@@ -36,8 +36,8 @@
         background-repeat: no-repeat;
     }
 
-    .navigation.active a {
-        position: relative;
+    .navigation.menu-active {
+        position:fixed;
         top: 0;
         left: 0;
         width: 100%;
