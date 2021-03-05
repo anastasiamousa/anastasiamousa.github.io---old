@@ -19,14 +19,14 @@ ul {
 }
 
 section {
-    position: relative;
-    width: 100%;
+    position: absolute;
+    width:100%;
     min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: space-between;
+    padding: 70px;
+    display:flex;
+    justify-content:space-between;
     align-items: center;
-    background: #c5d0d3;
+    background:#d4d3d4;
 }
 
 header {
@@ -57,7 +57,7 @@ header ul li {
 
 header ul li a {
     display: inline-block;
-    color: #416d6d;
+    color:#2c394a;
     font-weight: 400;
     margin-left: 40px;
     transition: opacity 250ms;
@@ -88,52 +88,56 @@ header ul li a:hover {
 }
 
 .content .textBox h2 {
-    color: #416d6d;
+    color:#2c394a;
     font-size: 4.1em;
     line-height: 1.8em;
     font-weight: 450;
 }
 
 p {
-    color: #416d6d;
+    color:#2c394a;
+}
+
+img {
+    position: inherit;
 }
 
 a:link, a:visited {
     text-decoration: none;
-    color:#c86f43;
+    color:#6e3e55;
 }
 
 h3 {
-    color:#416d6d;
+    color:#2c394a;
     font-size:3.1em;
     line-height: 1em;
     font-weight: 300;
 }
 
 h4 {
-    color:#416d6d;
+    color:#2c394a;
     font-size:1.5em;
     line-height: 1.2em;
     font-weight: 150;
 }
 .social {
-    position: absolute;
-    top: 50%;
-    right: 60px;
-    transform: translateY(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    position:absolute;
+    top:50%;
+    right:80px;
+    transform: translateY(-30%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
 }
 
 .social li a {
     display: inline-block;
-    margin: 5px 0;
+    margin: 3px 0;
 }
 
 .social li a img {
-    transition: opacity 250ms;
+    transition: opacity 200ms;
 }
 
 .social li a img:hover {
@@ -141,11 +145,11 @@ h4 {
 }
 
 footer {
-    position: fixed;
+    position:fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background:#c5d0d3;
-    color:#416d6d
+    background:#d4d3d4;
+    color:#2c394a;
 }
